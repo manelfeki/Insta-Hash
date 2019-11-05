@@ -1,0 +1,21 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+.example-card {
+  width:  500px;
+}
+.main-div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outline {
+  border-style: solid;
+  border-width: thin;
+  border-color: #888888;
+}
+.center-div{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

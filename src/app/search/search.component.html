@@ -1,0 +1,33 @@
+<!--<div [style.width]="500+'px'">
+<form [formGroup]="searchByHashtagForm" (ngSubmit)="onSubmit()">
+
+  <div class="form-group">
+    <label for="name">
+      Hashtag
+    </label>
+    <input id="hashtag" type="text" class="form-control" formControlName="hashtag">
+  </div>
+
+  <button type="submit" class="btn btn-success">Search Posts</button>
+
+</form>
+</div>-->
+<div class="main-div">
+<form [formGroup]="searchByHashtagForm" (ngSubmit)="onSubmit()">
+<mat-card class="example-card outline" layout="row" layout-align="center center" >
+  <mat-card-content>
+    <div class="form-group">
+      <label for="name" class="center-div">
+        Search by hashtag
+      </label>
+      <input id="hashtag" type="text" class="form-control" formControlName="hashtag">
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="center-div">
+    <button  mat-button type="submit" class="btn btn-success">Search Posts</button>
+    </div>
+  </mat-card-actions>
+</mat-card>
+</form>
+</div>
